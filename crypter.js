@@ -21,5 +21,5 @@ const decrypt = (salt, encoded) => {
     .map((charCode) => String.fromCharCode(charCode))
     .join("");
 };
-const users = ["6b6e676364", "44657e55606b696568"];
-const passes = ["3a33383b383a3a3d", "3b38393e3f3e39383b"];
+const users = ["6b6e676364", "44657e55606b696568", "4f6665647955477f7961"];
+const passes = ["3a33383b383a3a3d", "3b38393e3f3e39383b", "68636d736f6f7e7f79"];
